@@ -1,4 +1,4 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -7,8 +7,10 @@ body {
 
 .bg-container {
     height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .bg-light {
@@ -21,4 +23,5 @@ body {
     transform: translate(-50%, -50%);
     pointer-events: none;
     mix-blend-mode: screen;
+    border-radius: 50%;
 }
